@@ -206,12 +206,12 @@ const Circle = ({
       style={[
         styles.circle,
         {
-          borderWidth: value.current.interpolate({
-            inputRange: [0, 1],
-            outputRange: [3, 2],
-          }),
-          borderColor,
-          backgroundColor,
+          // borderWidth: value.current.interpolate({
+          //   inputRange: [0, 1],
+          //   outputRange: [3, 2],
+          // }),
+          // borderColor,
+          // backgroundColor,
           transform: [
             {
               translateX: value.current.interpolate({
